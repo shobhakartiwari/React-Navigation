@@ -1,13 +1,19 @@
 import React from "react";
-import { Text, StyleSheet, Button } from "react-native";
+import { View , Text, StyleSheet, Button } from "react-native";
 
 const HomeScreen =  props => {
   console.log(props);
   
-  return <Button 
+  return <View>
+      <Button 
           title   = "Tap ME!"
           onPress = {()=> props.navigation.navigate("Details")}
-          />;
+          />
+          <Button 
+          title   = "Move to ImageList!"
+          onPress = {()=> props.navigation.navigate("ImageList")}
+          />
+          </View>
 };
 
 const styles = StyleSheet.create({
