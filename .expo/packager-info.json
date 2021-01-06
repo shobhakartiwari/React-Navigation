@@ -1,10 +1,10 @@
 {
-  "devToolsPort": 19002,
+  "devToolsPort": 19003,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 8949,
-  "expoServerNgrokUrl": "https://sb-h8k.anonymous.rn-starter.exp.direct",
-  "packagerNgrokUrl": "https://packager.sb-h8k.anonymous.rn-starter.exp.direct",
-  "ngrokPid": 8967,
+  "packagerPid": 6985,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
   "webpackServerPort": null
 }
